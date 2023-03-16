@@ -1,0 +1,412 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "CanadianExperienceLib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "CanadianExperienceLib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "MachineLib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "MachineLib",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Tests",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Tests",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "out/build/x64-Debug/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "out/build/x64-Debug/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "out/build/x64-Debug/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "MachineTests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "MachineTests",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "MachineDemo",
+					"childIndexes" : 
+					[
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "MachineDemo",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/machinedemolib-build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 9,
+					"source" : "out/build/x64-Debug/_deps/machinedemolib-src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CanadianExperience",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CanadianExperienceLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "MachineLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 3
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gmock",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "MachineTests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "MachineDemo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MachineDemoLib",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CanadianExperience::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CanadianExperience-Debug-964fc357f8a433e1c6f2.json",
+					"name" : "CanadianExperience",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CanadianExperienceLib::@cd064dd08011b6524895",
+					"jsonFile" : "target-CanadianExperienceLib-Debug-1db52925cbc14d13cde6.json",
+					"name" : "CanadianExperienceLib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "MachineDemo::@ed4e6dec04861a82e8b4",
+					"jsonFile" : "target-MachineDemo-Debug-696efad4105d711488c0.json",
+					"name" : "MachineDemo",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MachineDemoLib::@07d94151b53faf3852f7",
+					"jsonFile" : "target-MachineDemoLib-Debug-c190f4c9a89a92d8bb1a.json",
+					"name" : "MachineDemoLib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MachineLib::@abb2310f9ce8b326674a",
+					"jsonFile" : "target-MachineLib-Debug-a8a0f2a016afe5196b84.json",
+					"name" : "MachineLib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "MachineTests_run::@49bfbd4702751a92d26f",
+					"jsonFile" : "target-MachineTests_run-Debug-60b254a9f6f7de125f1f.json",
+					"name" : "MachineTests_run",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Tests_run::@3e3005ae7443f751ac85",
+					"jsonFile" : "target-Tests_run-Debug-cc8f9065ae318656e7d8.json",
+					"name" : "Tests_run",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Debug-58ebf455681aa4031a9f.json",
+					"name" : "gmock",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Debug-916761ddb765289b9907.json",
+					"name" : "gmock_main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Debug-054ea5df9e3afbf88453.json",
+					"name" : "gtest",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Debug-0f751e93f27fe87ce1ce.json",
+					"name" : "gtest_main",
+					"projectIndex" : 6
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/TJ/CLionProjects/project2/out/build/x64-Debug",
+		"source" : "C:/Users/TJ/CLionProjects/project2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
